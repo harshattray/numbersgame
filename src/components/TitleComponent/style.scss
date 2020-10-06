@@ -1,0 +1,11 @@
+.title-component {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+  width: 80%;
+  .ant-page-header-heading-title {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}

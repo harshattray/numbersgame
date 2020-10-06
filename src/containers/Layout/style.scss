@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 8px #ccc;
+  .ant-btn,
+  .ant-btn-primary {
+    border-radius: 15px;
+    font-family: "Kanit", sans-serif;
+    background: #25b8e4;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      border: 1px solid #25b8e4;
+      color: #fff;
+    }
+    &:active {
+      background: #25b8e4;
+      color: #fff;
+    }
+    &:focus {
+      background: #25b8e4;
+      color: #fff;
+    }
+  }
+}
+
+.ant-modal-confirm-body-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  .ant-modal-confirm-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
